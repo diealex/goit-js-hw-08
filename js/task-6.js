@@ -17,13 +17,6 @@ function onBtnClick() {
 
 createBtn.addEventListener("click", onBtnClick);
 
-// createBtn.addEventListener("click", () => {
-//   if (1 <= selectOpt.value && selectOpt.value <= 100) {
-//     createBoxes(selectOpt.value);
-//   } else selectOpt.value = "";
-//   selectOpt.value = "";
-// });
-
 destroyBtn.addEventListener("click", () => {
   destroyBoxes();
 });
